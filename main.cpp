@@ -31,7 +31,7 @@ namespace EventSystem
 			JOYSTICK
 		};
 		DeviceType dType;
-		System* system = nullptr; //указатель на систему, чтобы у Event была информация о системе на которой он висит
+		System* system = nullptr; //ГіГЄГ Г§Г ГІГҐГ«Гј Г­Г  Г±ГЁГ±ГІГҐГ¬Гі, Г·ГІГ®ГЎГ» Гі Event ГЎГ»Г«Г  ГЁГ­ГґГ®Г°Г¬Г Г¶ГЁГї Г® Г±ГЁГ±ГІГҐГ¬ГҐ Г­Г  ГЄГ®ГІГ®Г°Г®Г© Г®Г­ ГўГЁГ±ГЁГІ
 	public:
 		Event(DeviceType);
 		DeviceType getdType();
@@ -123,7 +123,6 @@ int main(int argc, char argv[])
 {
 	System Foo("Foo");
 	Event* e = new KeyboardEvent('a', true, false);
-
 
 	(void)argc;
 	(void)argv;
